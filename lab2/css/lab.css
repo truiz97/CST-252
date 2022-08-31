@@ -1,0 +1,48 @@
+body {
+  background-color: pink; /*this changed he background color of the page */
+}
+h1 {
+  color: black; /*this changed the font color */
+  font-family: Arial, Helvetica, sans-serif; /*this changed the font style */
+  font-size: 60px /*this changed the font size */
+}
+#box1{
+  background-color: white;
+  padding: 40px;
+  border: 10px;
+  border-color:black;
+  border-style: dotted;
+  height: 200px;
+  width: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#header2 {
+  color: pink;
+  font-size: 100px
+}
+
+p {
+  font-style: italic;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+img{
+  width: 20%;
+  padding: 40px
+}
+
+#list {
+    font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px
+      color: white;
+      padding: 40px;
+      border: 5px;
+      border-color:black;
+      border-style: dotted;
+      height: 100px;
+      width: 200px;
+
+}
