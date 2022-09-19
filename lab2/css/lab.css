@@ -43,5 +43,6 @@ img{
       border-color:black;/*this changed the border color */
       border-style: dotted;/*this changed the border style */
       height: 100px;/*this changed the height of the box*/
-      width: 200px;/*this changed the width of the box */
+      width: 200px;
+
 }
