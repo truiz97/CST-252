@@ -28,7 +28,7 @@ function formatAndSortNames() {
 
 	newArray = [];
 
-	//Remember to Google what "split" does
+	//Remember to Google what  "split" does
 	splitNames = arrayOfNames[0].split(' ');
 	firstName = splitNames[0];
 	lastName = splitNames[1];
@@ -56,9 +56,3 @@ function formatAndSortNames() {
 	addToWebPage('Afterwards, the names are: ' + combinedFixedString);
 
 }
-
-
-
-
-
-
