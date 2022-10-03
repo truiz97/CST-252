@@ -8,6 +8,14 @@
   document.querySelector("#content");
 }
 
+let para1 = document.createElement("p#pUno");
+para.innerText = "This is paragraph 1";
+document.body.appendChild(para1);
+
+let para2 = document.createElement("p#pDos");
+para.innerText = "This is paragraph 2";
+document.body.appendChild(para2);
+
 /**
 *In class activity*
 console.log('it shows results as you type')
