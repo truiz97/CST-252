@@ -1,18 +1,36 @@
 /**
- * Authos:    Tristan & Skye
+ * Authors:    Tristan & Skye
  * Created:   09.28.2022
  **/
 
  function ready(){
   console.log ("hello");
-  document.querySelector("#content");
+  document.querySelector(".content");
 }
 
-let para1 = document.createElement("p#pUno");
+let newButton = document.createElement('button');
+newButton.innerHTML = "mister button";
+document.body.appendChild(newButton);
+newButton.style.color = 'orange';
+newButton.style.background = 'green';
+newButton.style.border = 'thick solid orange'
+
+let newButtondos = document.createElement('button');
+newButtondos.innerHTML = "missy button";
+document.body.appendChild(newButtondos);
+newButtondos.style.color = 'green';
+newButtondos.style.background = 'orange';
+newButtondos.style.border = 'thick solid green'
+
+
+
+
+
+/*let para1 = document.createElement("button");
 para.innerText = "This is paragraph 1";
 document.body.appendChild(para1);
 
-let para2 = document.createElement("p#pDos");
+let para2 = document.createElement("button");
 para.innerText = "This is paragraph 2";
 document.body.appendChild(para2);
 
