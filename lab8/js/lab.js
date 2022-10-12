@@ -26,6 +26,7 @@ newButtondos.style.border = 'thick solid green'
 
 
 
+
 /*let para1 = document.createElement("button");
 para.innerText = "This is paragraph 1";
 document.body.appendChild(para1);
